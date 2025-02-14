@@ -1,5 +1,5 @@
 @ /100
-N   K /0000 ; Input do numero
+N   K /0003 ; Input do numero
 RES K /0000 ; Resultado do fatorial
 UM  K /0001 ; valor 1 a ser decrementado
 
