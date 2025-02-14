@@ -41,11 +41,14 @@ RS SUB_ASC
 CHECK_OVERFLOW K /000
     LD RES
     DV SHIFT ; shifta para a direita removendo o digito menos significativo
+    ML SHIFT
     MM TEMP
     LD RES
     SB TEMP
     SB DEZ
     JN FIM_CHECK
+    LD RES
+    SB DEZ
     AD SOMA_OF
     MM RES
 FIM_CHECK RS CHECK_OVERFLOW
