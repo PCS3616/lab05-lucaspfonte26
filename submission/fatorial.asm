@@ -1,11 +1,12 @@
+@ /000
+SC  FATORIAL
+JP  HALT
+
+
 @ /100
 N   K /0003 ; Input do numero
 RES K /0000 ; Resultado do fatorial
 UM  K /0001 ; valor 1 a ser decrementado
-
-@ /200
-SC  FATORIAL
-JP  HALT
 
 @ /300
 FATORIAL K /0000
