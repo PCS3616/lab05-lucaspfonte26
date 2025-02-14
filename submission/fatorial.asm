@@ -24,9 +24,9 @@ END_FATORIAL RS FATORIAL
 
 
 @ /400
-ZERO LV = 1 ; AC = 1
+ZERO LD UM ; AC = 1
      MM RES ; RES = 1
-HALT HM = 0
+HALT HM  /0000
 
 
 
